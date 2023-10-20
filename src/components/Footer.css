@@ -1,0 +1,39 @@
+.footer {
+  background-color: #212a2f;
+  padding: 72px 0;
+  text-align: center;
+  border-bottom: 15px solid #fff;
+}
+
+.footer__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer li:not(:last-child) {
+  margin-right: 32px;
+}
+
+.footer li a {
+  color: #fff;
+  font-size: 30px;
+}
+
+.footer li a:hover {
+  color:rgb(31, 86, 76);
+}
+
+.footer__logo {
+  color: #fff;
+  font-family: 'GemunuLibre';
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  color: #fff;
+  margin-top: 20px;
+  font-family: 'GemunuLibre';
+  font-size: 15px;
+}

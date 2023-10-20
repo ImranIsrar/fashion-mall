@@ -1,0 +1,180 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'geograph';
+  src: url('/src/font/geographwebregular.ttf');
+}
+
+@font-face {
+  font-family: 'GemunuLibre';
+  src: url('/src/font/GemunuLibre.ttf');
+}
+
+body {
+  font-family: geograph;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000;
+  overflow:visible !important;
+}
+
+body.remove-scrollbar {
+  overflow: hidden !important;
+}
+
+ul:not(.not-styled) {
+  list-style-type: none;
+  padding: 0;
+}
+
+a,a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  color:rgb(31, 86, 76);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+a {
+  color:inherit;
+}
+
+p {
+  font-weight: 400;
+  color: rgb(33, 42, 47);
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.container {
+  width:100%;
+  max-width: 1284px;
+  margin:0 auto;
+  padding: 0px 24px;
+}
+
+button.css-sghohy-MuiButtonBase-root-MuiButton-root,
+a.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  font-family: inherit;
+  font-size: 14px;
+  padding: 13px 43.5px;
+  transition: all 100ms ease 0s;
+  letter-spacing: 2px;
+  border-radius: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 18px;
+}
+
+button.MuiButton-contained,
+a.MuiButton-contained {
+  background-color: #fff;
+  border:2px solid transparent;
+  color: rgb(33, 42, 47);
+}
+
+button.MuiButton-contained:hover,
+a.MuiButton-contained:hover,
+button.btn-hover-outline,
+a.btn-hover-outline {
+  background-color: rgb(33, 42, 47);
+  color: #fff;
+}
+
+button.btn-hover-outline:hover,
+a.btn-hover-outline:hover {
+  border-color: rgb(33, 42, 47);
+  color: rgb(33, 42, 47);
+  background-color: transparent;
+}
+
+h2, h3 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 1.31;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 1.32;
+}
+
+hr {
+  background-color: rgb(245, 245, 245);
+  height: 8px;
+  border: 0;
+}
+
+.favorite-shop__wrapper {
+  box-shadow: rgb(211 212 213) 0px 6px 24px 0px;
+}
+
+.css-13xfq8m-MuiTabPanel-root {
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+
+.owl-theme  .owl-nav {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  margin-top: 0;
+}
+
+.owl-theme  .owl-nav  > div {
+  border: 1px solid rgb(211, 212, 213);
+  width: 48px;
+  height: 48px;
+  border-radius: 50% !important;
+  background: rgb(255, 255, 255) !important;
+  box-shadow: rgb(0 0 0 / 25%) 0px 0px 24px 0px;
+  transition: border-color 125ms ease-in-out 0s;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  color: rgb(77, 85, 89) !important;
+}
+
+.owl-theme  .owl-nav  > div:hover {
+  border-color: rgb(116, 121, 124);
+}
+
+.owl-prev {
+  margin-left: 5% !important;
+}
+
+.owl-next {
+  margin-right: 5% !important;
+}
+
+.owl-item {
+  margin-bottom: 20px;
+}
+
+.owl-stage {
+  display: flex;
+}
+
+.owl-stage .owl-item > div {
+  height: 100%;
+}

@@ -1,0 +1,22 @@
+button.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #212a2f;
+  font-weight: 700;
+  font-family: geograph;
+  opacity: 0.8;
+  padding: 30px 30px 12px;
+  margin: 0 36px;
+}
+
+button.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #212a2f;
+  opacity: 1;
+}
+
+span.css-1aquho2-MuiTabs-indicator {
+  background-color: #212a2f;
+}
+

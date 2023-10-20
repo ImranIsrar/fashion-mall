@@ -1,0 +1,15 @@
+.counter {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(211, 212, 213);
+  justify-content: space-between;
+}
+
+.counter button {
+  color:#000;
+}
+
+.counter button svg {
+  width: 0.8em;
+  height: 0.8em;
+}

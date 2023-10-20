@@ -1,0 +1,129 @@
+
+/* ================== 
+      Banner  
+      ====================*/
+
+.banner:not(.banner-2__content) {
+  background: url(/public/images/main-banner.jpg) no-repeat center right;
+  background-size: cover;
+  height:calc(100vh - 100px);
+  padding: 65px 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.banner .container {
+  max-width:1380px;
+}
+
+.banner h1,
+.banner p {
+  color: #fff;
+  white-space: pre-line;
+  font-weight: 700;
+}
+
+.banner h1 {
+  font-size: 48px;
+  line-height: 1.31;
+  margin: 0px 0px 12px;
+}
+
+.banner p {
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  margin: 0 0 24px;
+}
+
+.banner__shop {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner__shop a:not(:last-child) {
+  margin-right: 23px;
+}
+
+
+/* ================== 
+      Favorite  
+      ====================*/
+
+.favorite {
+  padding: 47px 0 96px;
+}
+.favorite h2 {
+  color: rgb(33, 42, 47);
+  text-align: center;
+}
+
+
+/* ================== 
+      Banner 2  
+      ====================*/
+
+.banner-2 {
+  display: flex;
+}
+
+.banner-2 img{
+  width:100%;
+  max-height: 542px;
+  display: flex;
+}
+
+.banner-2__wrapper {
+  width: 100%;
+}
+
+.banner-2__content {
+  text-align: center;
+  width: 100%;
+  max-width: 666px;
+  margin: 0 auto;
+  padding: 48px 0 0;
+}
+
+.banner-2__title {
+  margin: 0 0 18px;
+}
+
+.banner-2 p {
+  color: rgb(33, 42, 47);
+  margin: 0px 0px 30px;
+  font-weight: 400;
+}
+
+.banner-2__shop {
+  justify-content: center;
+}
+
+
+/* ================== 
+      New Arrival  
+      ====================*/
+
+.new-arrival {
+  width: 90%;
+  margin-left: auto;
+  padding: 120px 0;
+}
+
+.new-arrival__title {
+  margin-bottom: 12px;
+}
+
+.new-arrival--shop .favorite-shop__content {
+  padding: 2px;
+}
+
+.new-arrival--shop .favorite-shop__content h3 {
+  border: 0;
+  padding: 0;
+  margin: 0 0 6px;
+}
+
+
+/* ================== 
+      New Arrival  
+      ====================*/
