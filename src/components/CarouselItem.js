@@ -8,6 +8,7 @@ import { NavLink } from 'react-router-dom';
 
 const CarouselItem = ({ img, imgHeight, alt, title, desc }) => {
   return (
+    <>
     <Card variant="outlined" className="favorite-shop__wrapper" style={{ border: "none"}}>
       <div className="favorite-shop__card">
       <CardActionArea component={ NavLink } to="/men">
@@ -28,6 +29,7 @@ const CarouselItem = ({ img, imgHeight, alt, title, desc }) => {
       </CardActionArea>
       </div>
     </Card>
+    </>
   )
 }
 
